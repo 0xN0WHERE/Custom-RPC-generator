@@ -7,6 +7,8 @@ import os
 import platform
 import sys
 
+bot_ID = "YOUR BOPT ID HERE"
+
 banner = f"""{Fore.MAGENTA}
 
                      ▄████▄   █    ██   ██████ ▄▄▄█████▓ ▒█████   ███▄ ▄███▓    ██▀███   ██▓███   ▄████▄  
@@ -29,9 +31,6 @@ bracketclosed = f"{Fore.MAGENTA}]{Style.RESET_ALL}"
 
 bracketopen2 = f"{Fore.WHITE}[{Style.RESET_ALL}"
 bracketclosed2 = f"{Fore.WHITE}]{Style.RESET_ALL}"
-
-line1 = f"{Fore.MAGENTA}|{Style.RESET_ALL}"
-line2 = f"{Fore.WHITE}|{Style.RESET_ALL}"
 
 username = os.getlogin()
 
@@ -141,7 +140,7 @@ def main():
             try:     
              def run_rpc_listen():
               global rpc
-              rpc = Presence("1474110598693519584")
+              rpc = Presence(bot_ID)
               rpc.connect()
               rpc.update(
                details=title_rpc,
@@ -159,7 +158,7 @@ def main():
             try:
              def run_rpc_play():
               global rpc
-              rpc = Presence("1474110598693519584")
+              rpc = Presence(bot_ID)
               rpc.connect()
               rpc.update(
                details=title_rpc,
@@ -177,7 +176,7 @@ def main():
             try:
              def run_rpc_watch():
               global rpc
-              rpc = Presence("1474110598693519584")
+              rpc = Presence(bot_ID)
               rpc.connect()
               rpc.update(
                details=title_rpc,
@@ -195,7 +194,7 @@ def main():
             try:
              def run_rpc_comp():
               global rpc
-              rpc = Presence("1474110598693519584")
+              rpc = Presence(bot_ID)
               rpc.connect()
               rpc.update(
                details=title_rpc,
