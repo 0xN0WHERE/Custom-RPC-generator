@@ -6,7 +6,7 @@ import os
 import platform
 import sys
 
-bot_ID = "YOUR BOT ID HERE"
+bot_ID = "YOUR BOT ID HERE" #PUT YOUR DISCORD BOT ID HERE
 
 banner = f"""{Fore.MAGENTA}
 
