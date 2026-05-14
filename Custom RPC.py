@@ -1,4 +1,3 @@
-from pycaw.pycaw import AudioUtilities
 from pypresence import Presence, ActivityType
 import threading
 from colorama import Fore, Back, Style
