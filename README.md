@@ -47,6 +47,8 @@ pip install -r requirements.txt
 
 ## 🚀 Usage
 
+Insert your discord bot ID in the code
+
 Start the program:
 
 ```bash
