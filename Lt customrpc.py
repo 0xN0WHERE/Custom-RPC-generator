@@ -30,8 +30,8 @@ bracketclosed = f"{Fore.MAGENTA}]{Style.RESET_ALL}"
 bracketopen2 = f"{Fore.WHITE}[{Style.RESET_ALL}"
 bracketclosed2 = f"{Fore.WHITE}]{Style.RESET_ALL}"
 
-strich1 = f"{Fore.MAGENTA}|{Style.RESET_ALL}"
-strich2 = f"{Fore.WHITE}|{Style.RESET_ALL}"
+line1 = f"{Fore.MAGENTA}|{Style.RESET_ALL}"
+line2 = f"{Fore.WHITE}|{Style.RESET_ALL}"
 
 username = os.getlogin()
 
