@@ -33,6 +33,8 @@ The RPC updates your Discord profile in real-time and runs in the background.
 
 ### 1. Make sure to install python
 
+https://www.python.org/downloads/
+
 ### 2. Install requirements
 
 install the file "requirements.txt"
