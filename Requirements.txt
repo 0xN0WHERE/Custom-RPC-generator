@@ -1,1 +1,3 @@
-pypresence colorama pycaw
+pypresence
+colorama
+pycaw
